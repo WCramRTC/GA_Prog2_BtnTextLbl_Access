@@ -40,6 +40,11 @@ Name your project, choose a location, and click "Create".
 
 ### 2. Add UI Elements to MainPage.xaml
 
+> When you first create your project you will have a handful of different files and folders in your solution. While these are needed for the project to work, we will only be interacting with the `MainPage.xaml` file and the `MainPage.xaml.cs` file.
+
+
+In the `MainPage.xaml` file  
+
 Add a Label for Number 1:
 
 ```xml
