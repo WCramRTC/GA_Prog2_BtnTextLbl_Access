@@ -8,54 +8,57 @@
             Spacing="25"
             Padding="30,0"
             VerticalOptions="Center">
-
-            <!-- Label for Number 1 -->
+            
+             <!--Label for Number 1--> 
             <Label Text="Number 1" 
                    AutomationProperties.HelpText="Label: for Number 1 Text Box"
                    />
 
-            <!-- Entry for Number 1 -->
+             <!--Entry for Number 1--> 
             <Entry x:Name="txtNumber1" 
                    AutomationProperties.HelpText="TextBox: This is where you enter your first number"
                    Placeholder="Enter Number 1" 
                    />
 
-            <!-- Label for Number 2 -->
+             <!--Label for Number 2--> 
             <Label Text="Number 2" 
                    AutomationProperties.HelpText="Label: for Number 2 Text Box"               
                    />
 
-            <!-- Entry for Number 2 -->
+             <!--Entry for Number 2--> 
             <Entry x:Name="txtNumber2" 
                    AutomationProperties.HelpText="TextBox: This is where you enter your second number"
                    Placeholder="Enter Number 2" 
                    />
 
-            <!-- Label for Result (Initial Text is Empty) -->
+             <!--Label for Result (Initial Text is Empty)--> 
             <Label x:Name="lblResult" 
                    AutomationProperties.HelpText="Label: This is where you enter your second number"    
                    Text="" 
                    />
 
-            <!-- Button to Perform Addition -->
+             <!--Button to Perform Addition--> 
             <Button x:Name="btnAdd" 
                    AutomationProperties.HelpText="Button: Click this to add your 2 numbers together"  
                    Text="Add" 
                    Clicked="btnAdd_Clicked" 
                     />
 
+            <!--Button to Perform Subtraction-->
             <Button x:Name="btnSubtract"
                     AutomationProperties.HelpText="Button: Click this to perform subtraction with your 2 numbers"  
                    Text="Subtract" 
                     Clicked="btnSubtract_Clicked"
                     />
 
+            <!--Button to Perform Multiply-->
             <Button x:Name="btnMultiply"
                     AutomationProperties.HelpText="Button: Click this to multiply your 2 numbers together"  
                    Text="Multiply" 
                     Clicked="btnMultiply_Clicked"
                     />
 
+            <!--Button to Perform Divide-->
             <Button x:Name="btnDivide"
                     AutomationProperties.HelpText="Button: Click this to perform division with your 2 numbers"  
                    Text="Divide" 
@@ -70,3 +73,37 @@
     </ScrollView>
 
 </ContentPage>
+
+<!--Label, Entry(TextBox), Button-->
+
+<!-- Control Name and Properties -->
+<!-- 
+            Text - What shows on screen
+            x:Name - how to access in code
+            --><!--
+
+<Label 
+                Text="Please enter your name"
+                />
+
+
+<Entry 
+                x:Name="entName"
+                />
+
+--><!-- 
+            Button
+            Text - What shows on screen
+            Clicked - Click Event
+            x:Name - how to access in code
+            --><!--
+<Button 
+                x:Name="btnDisplayName"
+                Text="Display Name"
+                Clicked="btnDisplayName_Clicked"
+                />
+
+<Label
+                Text="Hi Manjula"
+                x:Name="lblResult"
+                />-->

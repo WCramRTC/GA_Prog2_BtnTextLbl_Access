@@ -28,22 +28,22 @@
 ### Work in Progress
 
 ### 1. Create a .NET MAUI Project
-Open Visual Studio.
+    Open Visual Studio.
 
-Click on "Create a new project".
+    Click on "Create a new project".
 
-Search for "MAUI" in the project templates and select “.NET MAUI App”.
+    Search for "MAUI" in the project templates and select “.NET MAUI App”.
 
-Click "Next".
+    Click "Next".
 
-Name your project, choose a location, and click "Create".
+    Name your project, choose a location, and click "Create".
 
 ### 2. Add UI Elements to MainPage.xaml
 
-> When you first create your project you will have a handful of different files and folders in your solution. While these are needed for the project to work, we will only be interacting with the `MainPage.xaml` file and the `MainPage.xaml.cs` file.
+> When you first create your project you will have a handful of different files and folders in your solution explorer, located on the right hand side of the screen. While these are needed for the project to work, we will only be interacting with the `MainPage.xaml` file and the `MainPage.xaml.cs` file.
 
+1. Open your MainPage.xaml file. This is where the code that tells your application what to display is located. This file uses .XAML, pronounced like camel, but with a z.
 
-In the `MainPage.xaml` file  
 
 Add a Label for Number 1:
 
